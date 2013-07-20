@@ -1,0 +1,17 @@
+{
+  "name": "superfly",
+  "version": "0.0.1",
+  "description": "Nodecopter!",
+  "main": "Gruntfile.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taktran/starttter.git"
+  },
+  "author": ["Tak Tran (contact@tutaktran.com)", "Anne Jang", "Tim Cheung", "Wendy Kwan"]
+  "license": "BSD",
+  "devDependencies": {
+    "ar-drone": "~0.1.0"
+  }
+}
