@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://github.com/taktran/starttter.git"
   },
-  "author": ["Tak Tran (contact@tutaktran.com)", "Anne Jang", "Tim Cheung", "Wendy Kwan"]
+  "author": ["Tak Tran (contact@tutaktran.com)", "Anne Jang", "Tim Cheung", "Wendy Kwan"],
   "license": "BSD",
   "devDependencies": {
     "ar-drone": "~0.1.0"
