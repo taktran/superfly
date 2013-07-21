@@ -8,29 +8,6 @@ process.stdin.setEncoding('utf8');
 process.stdin.on('data', function(chunk) {
   process.stdout.write('data: ' + chunk + "\n");
 
-// // takeoff mapped to s
-//   if (chunk == 's') {
-//     //console.log('captured s')
-//     client.takeoff();
-//     console.log('taking off!');
-//   }
-
-// // land when you press 'd'
-//   if (chunk == 'd') {
-//     client.stop();
-//     client.land();
-//     console.log('down');
-//   }
-
-//   if (chunk == '\u001b[B') {
-//     client.back(0.5)
-//   }
-
-//   if (chunk == '\u0003') {
-//     console.log('exiting');
-//     process.exit();
-//   }
-
   switch (chunk) {
     // take off when s is pressed
     case 's':
